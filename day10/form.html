@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Miguel's Pizza Form</title>
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pizzas.html">Pizza's</a>
+            <a href="form.html">How was your experience?</a>
+            <a href="sitemap.html">Sitemap</a>
+            </nav>
+
+            <form action="mailto:W0468751@campus.nscc.ca?subject=From%20our%20Website" 
+
+            method="post" enctype="text/plain">
+        
+            <table style="width:100%">
+                <tr>
+                  <th>
+                    write your first name and last name below:<br>
+                        <input type="text" name="YourName" minlength="2" required="required" size="50"></th>
+                </tr>
+                <tr>
+                  <th>"What Pizza Did You Order?"
+                    <select name="Pizza">
+                        <option value=””>Cheese</option>
+                        <option value=””>Pepperoni</option>
+                        <option value=””>Vegetarian</option>
+                        <option value=””>Meat Lovers</option>
+                        </select>
+                  </th>
+                </tr>
+                <tr>
+                  <th><label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email"></th>
+                </tr>
+                <tr>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th>"put your phone number here" 
+                    <input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" size="1"> 
+                    <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" size="1"> 
+                    <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" size="1"></th>
+                </tr>
+                <tr>
+                    <th>
+                      <label for="slider">Rate the food</label>
+                      <input type="range" min="1" max="10" value="1" id="slider"></th>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th><input type="submit" value="send">
+                        <input type="reset" value="reset"></th>
+                </tr>
+        
+              </table>
+            </form>
+    </body>
+</html>
+<!--last edited 07/16/2021 by:Miguel Vidito-Davis-->
