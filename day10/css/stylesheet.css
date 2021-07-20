@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    height: 300px;
+    background: url('https://th.bing.com/th/id/R.38733e522b751ff5e1f0f303cccc3767?rik=7%2bNXJlzZk3ZPQQ&riu=http%3a%2f%2fimages.dailyhive.com%2f20180820042552%2fpizzanova1.jpg&ehk=Yhookfu8NfaJqa2aRDHbm9H%2fJeeKAl6S3ygWoel94h8%3d&risl=&pid=ImgRaw');
+    background-size: cover;
+    border:black 3px solid;
+  }
+  
+  header h1{
+      color: rgb(0, 0, 0);
+      text-align: center;
+      margin-top: -2em;
+  }
+
+  nav { 
+      text-decoration: none;
+      text-align: center;
+    }
+
+    nav a{
+        padding: 4px;
+        background-color: white; 
+        color: black;
+    }
+
+ .chef {
+    float: right;
+    margin-top: -180px;
+    border: black 5px solid;
+}
+
+.number{
+    margin-right: 300px;
+}
+
+.aboutus{
+background-color:rgb(175, 23, 54);
+border:black 3px solid;
+width: 100px;
+}
+
+.num{
+    margin-left: 1220px;
+}
+
+
