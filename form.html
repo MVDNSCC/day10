@@ -16,17 +16,21 @@
 
             method="post" enctype="text/plain">
         
+
+            <form action="mailto:stephen.franks@nscc.ca?subject=From%20our%20Website" 
+
+            method="post" enctype="text/plain">
             <table style="width:100%">
                 <tr>
                   <th>
                     Write your first name:
                         <input type="text" name="YourName" minlength="2" required="required" size="15"></th>
                 </tr>
-                <tr><th>Write your first name:
+                <tr><th>Write your last name:
                   <input type="text" name="YourName" minlength="2" required="required" size="15"></th></tr>
                 <tr>
                   <th>What Pizza Did You Order?
-                    <select name="Pizza">
+                    <select name="Pizza" required="required">
                         <option value=””>Cheese</option>
                         <option value=””>Pepperoni</option>
                         <option value=””>Vegetarian</option>
@@ -36,7 +40,7 @@
                 </tr>
                 <tr>
                   <th><label for="email">Enter your email:</label>
-                    <input type="email" id="email" name="email"></th>
+                    <input type="email" id="email" name="email" required="required"></th>
                 </tr>
                 <tr>
                   <td></td>
