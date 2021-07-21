@@ -25,10 +25,14 @@ header {
 
  .chef {
     float: right;
-    margin-top: -180px;
+    margin-top: -270px;
     border: black 5px solid;
 }
 
+nav :hover {
+    color: red;
+    background-color: white;
+}
 .number{
     margin-right: 300px;
 }
@@ -43,4 +47,11 @@ width: 100px;
     margin-left: 1220px;
 }
 
+.pizzahead{
+    height: 250px;
+}
+
+.aboutpara{
+font-size: 20px;
+}
 
