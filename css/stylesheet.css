@@ -41,6 +41,7 @@ nav :hover {
 background-color:rgb(175, 23, 54);
 border:black 3px solid;
 width: 100px;
+padding-left: 10px;
 }
 
 .num{
@@ -53,6 +54,7 @@ width: 100px;
 
 .aboutpara{
 font-size: 20px;
+padding-left: 20px;
 }
 
 .cheesep{
@@ -78,3 +80,4 @@ font-size: 20px;
     border:black 3px solid;
     margin-right: -10px;
 }
+
